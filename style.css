@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header { 
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A66C2;
+    color: white;
+}
+
+h1 {
+    flex: 2;
+    text-align: center;
+}
+
+button {
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+body {
+    height: 100vh;
+}
+
+/* Choices */
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+.choice {
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover {
+    cursor: pointer;
+    background-color:#0A66C2;
+    
+}
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Score Board */
+.score-board {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap:5rem;
+}
+#user-score , 
+#computer-score {
+    font-size: 4rem;
+}
+
+/* Message */
+.msg-container {
+    margin-top: 5rem;
+}
+#msg {
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #0A66C2;
+    color: white;
+}
+
+/* 🌙 Dark Mode */
+.dark {
+    background-color: #121212;
+    color: white;
+}
+.dbut {
+    background-color: #333;
+    color: white;
+}
+
+
+
+/* ☀️ Light Mode */
+.light {
+    background-color: #fafafa;
+    color: black;
+}
+
